@@ -1,0 +1,245 @@
+\documentclass[10pt, oneside]{article}   	% use "amsart" instead of "article" for AMSLaTeX format
+\usepackage[margin=0.25in]{geometry}                		% See geometry.pdf to learn the layout options. There are lots.
+%\geometry{letterpaper}                   		% ... or a4paper or a5paper or ... 
+\geometry{landscape}                		% Activate for for rotated page geometry
+%\usepackage[parfill]{parskip}    		% Activate to begin paragraphs with an empty line rather than an indent
+\usepackage{graphicx}				% Use pdf, png, jpg, or eps§ with pdflatex; use eps in DVI mode
+								% TeX will automatically convert eps --> pdf in pdflatex		
+
+
+
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amsmath}
+\usepackage{ amssymb }
+ 
+\usepackage[usenames, dvipsnames]{color}
+ 
+
+ 
+\usepackage{multicol}
+\usepackage{color,soul}
+
+\title{Modern Physics Formulas}
+\author{Joseph Crandall}
+%\date{}							% Activate to display a given date or no date
+
+\begin{document}
+%\begin{multicols}{1}
+
+%\maketitle
+\colorbox{YellowGreen}{Joe Crandall's PHYS 2161 Midterm 1}
+\colorbox{Thistle}{Used Heavily}
+\colorbox{Cyan}{Topic}
+\colorbox{Orange}{SubTopic}
+\colorbox{Aquamarine}{KNOWTHISMATH}
+\colorbox{RubineRed}{Definition}
+\colorbox{Yellow}{break}
+%\ 5
+To prepare for the mid-term exam - as I said in class - you should review solutions to your homework assignments 1 through 6 and be able to apply principal definitions and equations in the end of each chapter, Chapter 1 through 4. 
+\colorbox{Cyan}{1. Newton's Laws of Motion}
+\colorbox{Aquamarine}{Dot Product}
+$\vec{r} \cdot \vec{s} = |\vec{r}| |\vec{s}| cos\theta = r_xs_x=r_ys_y+r_zs_z$
+\colorbox{Aquamarine}{Cross Product}
+$\vec{r} \times \vec{s} = <r_ys_z-r_zs_y, r_zs_x-r_xs_z,r_xs_y-r_ys_x>$
+\colorbox{RubineRed}{Inertial Frame} An inertial frame is any reference frame in which Newton's first law holds, a non-accelerating, non-rotating frame. 
+\colorbox{RubineRed}{Unit Vector} If $(\xi , \eta, \zeta)$ are an orthogonal system of coordinates, then $\hat{\xi}$ = unit vector in direction of increasing $\xi$ with $\eta$ and $\zeta$ fixed and so on, and any vector $\vec{s}$ can be expanded as $\vec{s} = |\vec{s}|_{\xi}\hat{\xi} + |\vec{s}|_{\eta}\hat{\eta} + |\vec{s}|_{\zeta}\hat{\zeta}$
+\colorbox{Orange}{Newton's Second Law}
+Vector Form $\vec{F} = m\vec{\ddot{r}}$
+\hl{I}
+Cartesian $(x,y,z)$ $F_x=m\ddot{x}$ $F_y=m\ddot{y}$ $F_z=m\ddot{z}$
+\hl{I}
+2D Polar $(r,\phi)$ $F_r=m(\ddot{r}-r\dot{\phi^2})$ $F_\phi=m(r\ddot{\phi}+2\dot{r}\dot{\phi})$
+\hl{I}
+Cylindrical Polar $(\rho,\phi,z)$ $F_r=m(\ddot{\rho}-\rho \dot{\phi^2})$ $F_\phi=m(\rho \ddot{\phi}+2\dot{\rho}\dot{\phi})$ $F_z = m\ddot{z}$
+\colorbox{Cyan}{2. Projectiles and Charged Particles}
+\colorbox{Orange}{Linear and Quadratic Drags}
+provided the speed $v$ is well bellow that of sound, the magnitude of the drag force  $\vec{f} = -f(v)\hat{v}$ on an object moving through a fluid is usually well approximated as $f(v) = f_{lin} + f_{quad}$ 
+\hl{I} 
+D denotes diameter of the sphere and coefficients $\beta$ and $\gamma$ depend on the nature of the medium
+\hl{I}
+$f_{lin} = bv = \beta D v$
+\hl{I}
+$f_{quad}=cv^2=\gamma D^2 v^2$
+\hl{I}
+for a sphere in air at STP $\beta=1.6\times10^{-4} Nsm^{-2}$ and $\gamma = 0.25 Ns^2m^{-4}$
+\colorbox{Orange}{Lorentz Force on a Charged Particle}
+$q$ = charge in coulombs $C$ or ampere seconds $As$
+\hl{I}
+$E$ = electric field in newtons per coulomb $NC^{-1}$ or volts  per meter $Vm^{-1}$ or in SI base units $kgms^{-3}A^{-1}$
+\hl{I}
+$v$ = velocity in $ms^{-1}$
+\hl{I}
+$B$ = magnetic field in Teslas $T$ or in newtons per meter per ampere $Nm^{-1}A^{-1}$ or in SI base unites $kgs^{-2}A^{-1}$
+\hl{I}t
+$\vec{F}=q(\vec{E}+\vec{v}\times \vec{B})$
+q = charge b = unifom magnetic field v = velocity 
+\colorbox{Cyan}{3. Momentum and Angular Momentum}
+\colorbox{Orange}{Equation of Motion for a Rocket}
+$m\dot{v}=-\dot{m}v_{ex} + F^{ext}$
+\colorbox{Orange}{The Center of Mass of Several Particles}
+$\vec{R} = \frac{1}{M} \sum_{\alpha=1}^{N} m_{\alpha}\vec{r}_{\alpha} = \frac{m_1 +\vec{r}_1+...+m_N +\vec{r}_N}{M}$
+\hl{I}
+$M$ = total mass of all particles $\vec{r}$ = position r relative to an origin O
+\colorbox{Orange}{Angular Momentum}
+ For a single particle with position $\vec{r}$ relative to and origin O and momentum $\vec{p}$, the angular momentum about O is $\vec{l}=\vec{r}\times \vec{p}$
+\hl{I}
+For several particles, the total angular momentum is $\vec{L} = \sum_{\alpha=1}^{N} \vec{l}_{\alpha} = \sum_{\alpha=1}^{N} \vec{r}_{\alpha} \times  \vec{p}_{\alpha} $  
+\hl{I}
+Provided all the internal forces are central $\vec{\dot{L}}=\vec{\Gamma}^{ext}$ where $\vec{\Gamma}^{ext}$ is the net external torque
+\colorbox{Cyan}{4. Energy}
+\colorbox{Orange}{Work-KE Theorem} 
+The change in KE of a particle as it moves from point 1 to point 2 $\Delta T = T_2 - T_1 = \int_1^2 is \vec{F}\cdot d\vec{r} \equiv W(1\rightarrow2)$ where $T=\frac{1}{2}mv^2$ and $W(1\rightarrow2)$ is the work done which by the total force $\vec{F}$ on the particle and is defined by the preceding integral
+\colorbox{Orange}{Conservative Forces and Potential Energy} 
+A force $\vec{F}$ on a particle is conservative if (i) it depends only on the particle's position, $\vec{F}=\vec{F}(\vec{r})$, and (ii) for any two points 1 and 2, the work $W(1\rightarrow2)$  done by $\vec{F}$ is the same for all paths joining 1 and 2 (or equivalently, $\nabla \times \vec{F} = 0$) If $\vec{F}$ is conservative, we can define a corresponding potential energy so that $U(\vec{r})= -W(\vec{r_o} \rightarrow \vec{r}) \equiv - \int_{\vec{r_o}}^{\vec{r}} \vec{F}(\vec{r^{\prime}}) \cdot d\vec{r^{\prime}}$
+\hl{I}
+and $\vec{F} = -\nabla U$
+\hl{I}
+If all the forces on a particle are conservative with corresponding potential energies $U_1, ... , U_n$ then the total mechanical energy $E = T + U_1+ ... + U_n$ is constant  . More Generally if there are also nonconservative forces $\Delta E = W_{nc}$, is the work done by the nonconservative forces.
+\colorbox{Orange}{Central Forces} 
+A force $\vec{F}(\vec{r})$ is central if it is everywhere directed toward or away from a "force center". If we take the latter to be the origin, $\vec{F}(\vec{r})=f(\vec{r})\hat{r}$ A central force is spherically symmetric $[f(r)=f(r)]$ if and only if it is conservative 
+  \colorbox{Orange}{Energy of a Multiparticle System}
+  If all forces (internal and external) on a multi-particle system are conservative, the total potential energy, 
+  $U=U^{int}+U^{ext}= \sum_{\alpha}  \sum_{\beta > \alpha} U_{\alpha \beta} +  \sum_{\alpha} U_{\alpha}^{ext}$
+  satisfies (net force on a particle $\alpha$) = $-\nabla_{\alpha}U$ and $T+U = constant$
+
+
+
+
+
+
+
+
+\colorbox{Maroon}{NOT ON MIDTERM PAST THIS POINT}
+
+\colorbox{Cyan}{5. Oscillations}
+\colorbox{Orange}{5.1 Hooke's Law}
+$F=-kx \Leftrightarrow U = \frac{1}{2}kx^2$ k is the force constant
+\colorbox{Aquamarine}{Taylor Series}
+$\frac{1}{1-x} = \sum^{\infty}_{n=0} x^n = 1 + x + x^2 + x^3 + \cdots \hspace{1em}(\mbox{when $-1 < x < 1$)}$
+\hl{I}
+$e^{x} = \sum^{\infty}_{n=0} \frac{x^n}{n!} = 1 + x + \frac{x^2}{2!} + \frac{x^3}{3!} + \cdots$
+\hl{I}
+$\sin x = \sum^{\infty}_{n=0} \frac{(-1)^n}{(2n+1)!} x^{2n+1}\quad =  x - \frac{x^3}{3!} + \frac{x^5}{5!} - \cdots $
+\hl{I}
+$\cos x = \sum^{\infty}_{n=0} \frac{(-1)^n}{(2n)!} x^{2n}\quad =  1 - \frac{x^2}{2!} + \frac{x^4}{4!} - \cdots $
+\hl{I}
+\colorbox{Orange}{5.2 Simple Harmonic Motion}
+E=total energy, T=K=kinetic energy, U=potential energy, k=force constant, $\omega$=angular velocity, $\delta$=phase shift, A=amplitude, t=time 
+\hl{I}
+$x(t) = A cos(\omega t - \delta)$
+\hl{I}
+$U=\frac{1}{2}kx^2 = \frac{1}{2}kA^2cos^2(\omega t-\delta)$
+\hl{I}
+$K=T=\frac{1}{2}m\dot{x}^2=\frac{1}{2}mA^2 \omega^2 sin^2(\omega t - \delta) = \frac{1}{2}kA^2 sin^2(\omega t - \delta)  $
+\hl{I} 
+where $\omega^2 = \frac{k}{m}$
+\hl{I}
+$E=T+U=\frac{1}{2}KA^2$
+\hl{I}
+$\ddot{x} = -\omega^2x \Leftrightarrow x(t) = Acos(\omega t-\delta)$
+\colorbox{Aquamarine}{AngleSum and Angle Difference Identities}
+$sin(\alpha + \beta) = sin(\alpha)cos(\beta) + cos(\alpha)sin(\beta)$
+\hl{I}
+$sin(\alpha - \beta) = sin(\alpha)cos(\beta) - cos(\alpha)sin(\beta)$
+\hl{I}
+$cos(\alpha + \beta) = cos(\alpha)cos(\beta) - sin(\alpha)sin(\beta)$
+\hl{I}
+$cos(\alpha - \beta) = cos(\alpha)cos(\beta) + sin(\alpha)sin(\beta)$
+\colorbox{Aquamarine}{Euler's formula}
+$e^{ix} = cosx + isinx$
+\hl{I}
+$e^{-ix} = cosx - isinx$
+\colorbox{Aquamarine}{Half Angle Formulas}
+$sin^2 x = \frac{1-cos(2x)}{2}$
+\hl{I}
+$cos^2 x = \frac{1+cos(2x)}{2}$
+\colorbox{Orange}{5.3 Two-Dimensional Oscillators}
+$x(t)=A_x cos(\omega t)$
+\hl{I}
+$y(t)=A_y cos(\omega t - \delta)$
+\hl{I}
+$\delta= \delta_y - \delta_x$ relative phase of the y and x oscillations
+\colorbox{Orange}{5.4 Damped Oscillations}
+$m\ddot{x}+b\dot{x}+kx=0$
+\hl{l}
+$\frac{b}{m} = 2\beta$ Damping constant = $\beta$
+\hl{I}
+$\omega_0 = \sqrt{\frac{k}{m}}$ Natural frequency = $\omega_o$
+\hl{I}
+decay parameter =$ \beta - \sqrt{\beta^2 - \omega_o^2}$
+\colorbox{Orange}{5.6 Resonance}
+
+\colorbox{Cyan}{6. Calculus of Variations}
+\colorbox{Orange}{The Euler-Lagrange Equation}
+$S = \int_{x_1}^{x_2} f[y(x),y^{\prime}(x),x]dx$ taken along y=y(x) with respect to variations of that path if and only if y(x) satisfies the Euler-Lagrange equation
+$\frac{df}{dy}-\frac{d}{dx}\frac{df}{dy^{\prime}} = 0$
+\colorbox{Orange}{Several Variables}
+If there are n dependent variables in the original integral, there are n Euler-Lagrange equations. 
+For instance, an integral of the form $S = \int_{u_1}^{u_2} f[x(u),y(u),x^{\prime}(u),y^{\prime}(u),u]du$
+with two dependent variables [x(u) and y(u)], is stationary with respect to variations of x(u) and y(u) if and only if these two functions satisfy the two equations
+$\frac{df}{dx}=\frac{d}{du}\frac{df}{dx^{\prime}}$ and
+$\frac{df}{dy}=\frac{d}{du}\frac{df}{dy^{\prime}}$
+
+\colorbox{Cyan}{7. Lagrange's Equations}
+\colorbox{Orange}{The Lagrangian}
+$\mathcal{L} = T-U$
+\colorbox{Orange}{The Lagrange's Equation}
+For any holonomic system, Newton's second law is equivalent to the n Lagrange equations
+$\frac{d \mathcal{L}}{dq_i} = \frac{d}{dt}\frac{d \mathcal{L}}{d \dot{q_i}} $
+$[i=1,...,n]$
+\colorbox{Orange}{Generalized Momenta and Ignorable Coordinates}
+The ith generalized momentum $p_i$ is defined to be the derivative
+$p_i = \frac{d \mathcal{L}}{d \dot{q_i}}$
+If $ \frac{d \mathcal{L}}{d \dot{q_i}} = 0$, then we say the coordinate $q_i$ is ignorable and the corresponding generalized momentum is constant.
+
+\colorbox{Orange}{The Hamiltonian}
+...
+
+\colorbox{Cyan}{8. Two-Body Central-Force Problems}
+\colorbox{Orange}{relative coordinate}
+$\vec{r} = \vec{r_1} - \vec{r_2}$
+\hl{I}
+reduced mass $\mu = \frac{m_1 m_2}{m_1 + m_2}$
+\colorbox{Orange}{The Equivalent One-Dimensional Problem}
+$U_{eff}(r) = U(r) + U_{cf}(r) = U(r) + \frac{l^2}{2\mu r^2}$
+\hl{I}
+$U_{cf}$ is called the centrifugal potential energy 
+\colorbox{Orange}{The Transformed Radial Equation}
+...
+\colorbox{Orange}{The Kepler Orbits}
+...
+\colorbox{Cyan}{10. Rotational Motion of Rigid Bodies}
+$\vec{L}$ = $\vec{L}$(motion of CM) + $\vec{L}$(motion relative to CM)
+\hl{I}
+T = T(motion of CM) + T(motion relative to CM)
+\colorbox{Orange}{Moment of Inertia Tensor}
+angular momentum $\vec{L}$ and angular velocity $\omega$ of a ridge body are related by $\vec{L} = \vec{I}\omega$
+\hl{I}
+diagonal and off-diagonal elements
+$I_{xx}=\sum_{\alpha} m_{\alpha} (y_{\alpha}^2 + z_{\alpha}^2 )$
+\hl{I}
+$I_{xy}= -\sum_{\alpha} m_{\alpha} x_{\alpha} y_{\alpha} $
+
+\colorbox{Orange}{Principal Axes}
+$\vec{L} = \lambda \omega $
+\hl{I}
+$I^{\prime} = \lambda_1 $... in central diagonal of matrix
+\colorbox{Orange}{Euler's Equations}
+...
+\colorbox{Orange}{Euler's Angles}
+...
+
+
+
+
+
+
+
+
+
+
+
+
+%\end{multicols}
+\end{document}  
